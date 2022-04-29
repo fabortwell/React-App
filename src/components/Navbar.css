@@ -8,3 +8,18 @@
     transition: .3s ease-in;
     overflow: hidden;
 }
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.header .navbar img {
+    width: 250px;
+    height: auto;
+}
