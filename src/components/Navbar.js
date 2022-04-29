@@ -12,18 +12,21 @@ const Navbar = () => {
            <img src={logo} alt='logo' />
         </a>
         <div className='hamburger'>
-         <FaBars />
+         <FaBars size={30} style={{color:'#ffffff'}} />
         </div>
           <ul className='nav-menu'>
             <li className='nav-item'>
             <a href='/'>Home</a>
             </li>
+
             <li className='nav-item'>
             <a href='/'>About</a>
             </li>
+
             <li className='nav-item'>
             <a href='/'>Testmonials</a>
             </li>
+
             <li className='nav-item'>
             <a href='/'>Demo</a>
             </li>
