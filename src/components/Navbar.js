@@ -16,14 +16,13 @@ const handleClick = () => setClick(!click)
         </a>
 
         <div className='hamburger' onClick={handleClick}>
-          {click ? (<FaTimes size={30} style={{color:'ffffff'}} />) : (<FaBars size={30} style={{color:'#ffffff'}} />)} 
+          {click ? (<FaTimes size={30} style={{color:'fff'}} />) : (<FaBars size={30} style={{color:'#fff'}} />)} 
 
         </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className='nav-item'>
             <a href='/'>Home</a>
             </li>
-
             <li className='nav-item'>
             <a href='/'>About</a>
             </li>
